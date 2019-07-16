@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/burpimport",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\BurpImport\\Providers\\BurpImportServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BurpImport\\": ""
+        }
+    }
+}
